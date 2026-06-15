@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .gallery {
@@ -7,6 +10,17 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+h1 {
+  width: 100vw;
+}
+
+.gallery div {
+  text-align: center;
+  margin-top: 2vh;
+  width: 100vw;
+  font-size: x-large;
 }
 
 body {
@@ -18,8 +32,11 @@ body {
 .header {
   width:100vw;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   background: #0a0a23;
   color: #fff;
   border-bottom: 4px solid #fdb347;
