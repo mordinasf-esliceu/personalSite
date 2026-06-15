@@ -16,6 +16,13 @@ h1 {
   width: 100vw;
 }
 
+.gallery .CV {
+  background-color: #c8caa2;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  text-align: left;
+}
+
 .gallery div {
   text-align: center;
   margin-top: 2vh;
