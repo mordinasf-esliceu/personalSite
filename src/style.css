@@ -13,31 +13,47 @@
 }
 
 h1 {
-  width: 100vw;
+  width: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .gallery .CV {
-  background-color: #c8caa2;
-  margin-left: 35vw;
-  margin-right: 35vw;
+  background-image: url("./assets/old_paper.jpg");
+  background-color: rgba(255, 255, 255, 0.7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
   text-align: left;
 }
 
 .gallery div {
   text-align: center;
   margin-top: 2vh;
-  width: 100vw;
+  width: 60vw;
   font-size: x-large;
 }
 
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #d4d9df;
+  background-image: url("./assets/plaster_wall.jpg");
+  background-blend-mode:lighten;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .header {
-  width:100vw;
+  width:100%;
+  margin: 0%;
   text-align: center;
   align-items: center;
   justify-content: center;
